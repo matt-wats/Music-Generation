@@ -18,6 +18,10 @@ I like classical music, but haven't seen much in the way of using machine learni
 
 # How it Works
 
+## Getting Data
+I scraped all of the music from http://www.piano-midi.de/
+
+
 ## Basic Idea
 The model is given the previous notes as input, and outputs probabilites for what the next note in the sequence would be.
 The sequence of notes it is given it just notes, not chords. Each song is split up into a sequence of notes, where chords are split into notes that are played "at the same time".
