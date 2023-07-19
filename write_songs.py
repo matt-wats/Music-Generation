@@ -38,7 +38,7 @@ num_properties = len(dictionaries)
 # load trained model
 training_folder = "./training_stats/"
 model = torch.load(training_folder + "model.pt")
-state = torch.load(training_folder + "model_state_29.pt")
+state = torch.load(training_folder + "model_state.pt")
 model.load_state_dict(state)
 model.eval()
 
