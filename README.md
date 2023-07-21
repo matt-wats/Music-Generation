@@ -47,8 +47,10 @@ We can use this method to create realistic seeming classical music, but it shoul
 # Bonus Stuff
 
 I also tested the models on just the Chopin dataset using the properties as inputs, as well as the unique notes as inputs.
+Here is the plots for using the properties as inputs:
 ![Losses and Learning Rates](https://github.com/matt-wats/Music-Generation/blob/main/Data/Comparison_Properties.png "Losses and Learning Rates")
 
+Here is the plots for using the unique ntoes as inputs:
 ![Losses and Learning Rates](https://github.com/matt-wats/Music-Generation/blob/main/Data/Comparison_Unique.png "Losses and Learning Rates")
 
 Using the properties as inputs give us a slightly better generalization on the validation set, but not much :(.
