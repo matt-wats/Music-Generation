@@ -50,10 +50,11 @@ I also tested the models on just the Chopin dataset using the properties as inpu
 Here is the plots for using the properties as inputs:
 ![Losses and Learning Rates](https://github.com/matt-wats/Music-Generation/blob/main/Data/Comparison_Properties.png "Losses and Learning Rates")
 
-Here is the plots for using the unique ntoes as inputs:
+Here is the plots for using the unique notes as inputs:
 ![Losses and Learning Rates](https://github.com/matt-wats/Music-Generation/blob/main/Data/Comparison_Unique.png "Losses and Learning Rates")
 
 Using the properties as inputs give us a slightly better generalization on the validation set, but not much :(.
+If using the properties as inputs improves generalizations, then maybe varying the dimensions of the properties could improve our results further.
 
 
 # Future Improvements
